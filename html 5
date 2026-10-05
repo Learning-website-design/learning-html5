@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="سایت تست اول؛ آخرین اخبار ایران، جهان، فناوری، اقتصاد و ورزش"
+    >
+
+    <meta
+        name="keywords"
+        content="اخبار، ایران، جهان، فناوری، اقتصاد، ورزش"
+    >
+
+    <meta name="author" content="سایت تست اول">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://example.com/">
+
+    <meta property="og:title" content="سایت تست اول">
+    <meta
+        property="og:description"
+        content="آخرین اخبار ایران و جهان"
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
+
+    <title>سایت تست اول | آخرین اخبار ایران و جهان</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div>
+            <a href="/" aria-label="صفحه اصلی سایت تست اول">
+                <strong>سایت تست اول</strong>
+            </a>
+        </div>
+
+        <p>آخرین اخبار ایران و جهان</p>
+
+        <!-- Main Navigation -->
+        <nav aria-label="منوی اصلی">
+            <ul>
+                <li><a href="/">صفحه اصلی</a></li>
+                <li><a href="/iran">ایران</a></li>
+                <li><a href="/world">جهان</a></li>
+                <li><a href="/technology">فناوری</a></li>
+                <li><a href="/economy">اقتصاد</a></li>
+                <li><a href="/sports">ورزش</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Breaking News -->
+        <section aria-labelledby="breaking-news">
+
+            <h2 id="breaking-news">آخرین اخبار</h2>
+
+            <article>
+
+                <header>
+                    <p>
+                        <time datetime="2026-10-05T12:30">
+                            ۵ اکتبر ۲۰۲۶ - ۱۲:۳۰
+                        </time>
+                    </p>
+
+                    <h1>
+                        عنوان اصلی خبر مهم امروز
+                    </h1>
+                </header>
+
+                <p>
+                    این متن خلاصه‌ای از مهم‌ترین خبر امروز است.
+                    در این بخش خلاصه خبر برای کاربران نمایش داده می‌شود.
+                </p>
+
+                <a href="/news/1">
+                    ادامه خبر
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- News Grid -->
+        <section aria-labelledby="latest-news">
+
+            <h2 id="latest-news">جدیدترین اخبار</h2>
+
+            <div>
+
+                <article>
+
+                    <header>
+                        <h3>
+                            خبر اول
+                        </h3>
+
+                        <time datetime="2026-10-05T11:45">
+                            ۱۱:۴۵
+                        </time>
+                    </header>
+
+                    <p>
+                        خلاصه‌ای کوتاه از خبر اول سایت.
+                    </p>
+
+                    <a href="/news/1">
+                        مطالعه خبر
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <header>
+                        <h3>
+                            خبر دوم
+                        </h3>
+
+                        <time datetime="2026-10-05T10:20">
+                            ۱۰:۲۰
+                        </time>
+                    </header>
+
+                    <p>
+                        خلاصه‌ای کوتاه از خبر دوم سایت.
+                    </p>
+
+                    <a href="/news/2">
+                        مطالعه خبر
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <header>
+                        <h3>
+                            خبر سوم
+                        </h3>
+
+                        <time datetime="2026-10-05T09:10">
+                            ۰۹:۱۰
+                        </time>
+                    </header>
+
+                    <p>
+                        خلاصه‌ای کوتاه از خبر سوم سایت.
+                    </p>
+
+                    <a href="/news/3">
+                        مطالعه خبر
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Article -->
+        <article>
+
+            <header>
+
+                <p>گزارش ویژه</p>
+
+                <h2>
+                    تحلیل ویژه سایت تست اول
+                </h2>
+
+            </header>
+
+            <figure>
+
+                <img
+                    src="images/featured.jpg"
+                    alt="تصویر مرتبط با گزارش ویژه"
+                    width="1200"
+                    height="675"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+                <figcaption>
+                    تصویر مرتبط با گزارش ویژه
+                </figcaption>
+
+            </figure>
+
+            <p>
+                این بخش می‌تواند شامل یک گزارش طولانی،
+                تحلیل تخصصی یا مصاحبه باشد.
+            </p>
+
+            <a href="/special-report">
+                مشاهده گزارش کامل
+            </a>
+
+        </article>
+
+
+        <!-- Aside Information -->
+        <aside aria-labelledby="popular-news">
+
+            <h2 id="popular-news">
+                پربازدیدترین اخبار
+            </h2>
+
+            <ol>
+                <li>
+                    <a href="/news/10">
+                        خبر پربازدید شماره یک
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/news/11">
+                        خبر پربازدید شماره دو
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/news/12">
+                        خبر پربازدید شماره سه
+                    </a>
+                </li>
+            </ol>
+
+        </aside>
+
+
+        <!-- Newsletter -->
+        <section aria-labelledby="newsletter">
+
+            <h2 id="newsletter">
+                عضویت در خبرنامه
+            </h2>
+
+            <form action="/subscribe" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        دریافت اخبار جدید
+                    </legend>
+
+                    <label for="email">
+                        ایمیل:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <button type="submit">
+                        عضویت
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        <!-- FAQ -->
+        <section aria-labelledby="faq">
+
+            <h2 id="faq">
+                پرسش‌های متداول
+            </h2>
+
+            <details>
+                <summary>
+                    سایت تست اول چیست؟
+                </summary>
+
+                <p>
+                    یک نمونه سایت خبری برای تمرین HTML5،
+                    CSS و JavaScript است.
+                </p>
+            </details>
+
+            <details>
+                <summary>
+                    چگونه اخبار جدید منتشر می‌شوند؟
+                </summary>
+
+                <p>
+                    در نسخه واقعی، اخبار از طریق Backend
+                    و Database مدیریت خواهند شد.
+                </p>
+            </details>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <nav aria-label="لینک‌های فوتر">
+
+            <ul>
+                <li>
+                    <a href="/about">درباره ما</a>
+                </li>
+
+                <li>
+                    <a href="/contact">تماس با ما</a>
+                </li>
+
+                <li>
+                    <a href="/privacy">
+                        حریم خصوصی
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/terms">
+                        قوانین استفاده
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <p>
+            © 2026 سایت تست اول - تمامی حقوق محفوظ است.
+        </p>
+
+    </footer>
+
+</body>
+</html>
